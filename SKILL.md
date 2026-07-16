@@ -1,5 +1,5 @@
 ---
-name: emil
+name: mail-task
 description: 通过邮件创建任务和查询进度——向 Agent 邮箱发指令，自动注册任务或返回当前工作状态。
 version: 1.0.0
 author: lrl07
@@ -7,11 +7,12 @@ category: 办公效率
 trigger:
   - 查邮件
   - 处理邮件
-  - emil
+  - 邮件任务
   - 邮件指令
+  - mail-task
 ---
 
-# Emil — 邮件任务总控
+# mail-task — 邮件任务总控
 
 通过 agently-cli 读取 Agent 邮箱中的指令邮件，自动判断意图并执行动作：创建新任务条目，或返回当前工作状态。
 
